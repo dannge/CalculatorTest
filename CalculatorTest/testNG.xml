@@ -1,0 +1,18 @@
+<suite name="CalculatorSuite">
+   <test name="CalculatorRegistrationTest">
+      <classes>
+          <class name="Tests.VerifyTests">
+              <methods>
+                 <include name="signUp"/>
+                 <include name="login"/>
+                 <include name="loginWrongName"/>
+                 <include name="registrationOnlyName"/>
+                 <include name="registrationOnlyPsw"/>
+                 <include name="registrationNoPersonalData"/>
+                 <include name="registrationWithUsedUsername"/>
+                 <include name="registrationPasswordsDontMatch"/>
+              </methods>
+          </class>
+      </classes>
+   </test>
+</suite>

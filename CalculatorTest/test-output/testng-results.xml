@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-02T11:24:32 EET" name="Default suite" finished-at="2022-12-02T11:26:39 EET" duration-ms="127502">
+    <groups>
+    </groups>
+    <test started-at="2022-12-02T11:24:32 EET" name="Default test" finished-at="2022-12-02T11:26:39 EET" duration-ms="127502">
+      <class name="Tests.VerifyTests">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:Tests.VerifyTests@131774fe]" started-at="2022-12-02T11:24:32 EET" name="SetUp" finished-at="2022-12-02T11:24:35 EET" duration-ms="2821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="signUp()[pri:1, instance:Tests.VerifyTests@131774fe]" started-at="2022-12-02T11:24:35 EET" name="signUp" finished-at="2022-12-02T11:24:49 EET" duration-ms="14002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method signature="login()[pri:2, instance:Tests.VerifyTests@131774fe]" started-at="2022-12-02T11:24:49 EET" name="login" finished-at="2022-12-02T11:25:05 EET" duration-ms="16599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="loginWrongName()[pri:3, instance:Tests.VerifyTests@131774fe]" started-at="2022-12-02T11:25:05 EET" name="loginWrongName" finished-at="2022-12-02T11:25:20 EET" duration-ms="14459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWrongName -->
+        <test-method signature="registrationOnlyName()[pri:4, instance:Tests.VerifyTests@131774fe]" started-at="2022-12-02T11:25:20 EET" name="registrationOnlyName" finished-at="2022-12-02T11:25:37 EET" duration-ms="16813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationOnlyName -->
+        <test-method signature="registrationOnlyPsw()[pri:5, instance:Tests.VerifyTests@131774fe]" started-at="2022-12-02T11:25:37 EET" name="registrationOnlyPsw" finished-at="2022-12-02T11:25:51 EET" duration-ms="14631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationOnlyPsw -->
+        <test-method signature="registrationNoPersonalData()[pri:6, instance:Tests.VerifyTests@131774fe]" started-at="2022-12-02T11:25:51 EET" name="registrationNoPersonalData" finished-at="2022-12-02T11:26:10 EET" duration-ms="18690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationNoPersonalData -->
+        <test-method signature="registrationWithUsedUsername()[pri:7, instance:Tests.VerifyTests@131774fe]" started-at="2022-12-02T11:26:10 EET" name="registrationWithUsedUsername" finished-at="2022-12-02T11:26:25 EET" duration-ms="14613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationWithUsedUsername -->
+        <test-method signature="registrationPasswordsDontMatch()[pri:8, instance:Tests.VerifyTests@131774fe]" started-at="2022-12-02T11:26:25 EET" name="registrationPasswordsDontMatch" finished-at="2022-12-02T11:26:39 EET" duration-ms="14644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationPasswordsDontMatch -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Tests.VerifyTests@131774fe]" started-at="2022-12-02T11:26:39 EET" name="TearDown" finished-at="2022-12-02T11:26:39 EET" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Tests.VerifyTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
